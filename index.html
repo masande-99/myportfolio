@@ -37,10 +37,10 @@
               <a href="#work" class="nav__link">Work</a>
             </li>
             <li class="nav__item">
-              <a href="#contact" class="nav__link">Contact</a>
+              <a href="#testimonials" class="nav__link">Testimonials</a>
             </li>
             <li class="nav__item">
-              <a href="#testimonials" class="nav__link">Testimonials</a>
+              <a href="#contact" class="nav__link">Contact</a>
             </li>
           </ul>
         </div>
@@ -56,7 +56,7 @@
       <section class="home bd-grid" id="home">
         <div class="home__data">
           <h1 class="home__title">
-            Hi,<br />I'am <span class="home__title-color">Masande</span><br />
+            Hi,<br />I am <span class="home__title-color">Masande</span><br />
             Web Designer
           </h1>
 
@@ -78,20 +78,21 @@
         </div>
 
         <div class="home__img">
-          <img src="assets/img/backg.jpg" alt="picture" style="width: 58%" />
+          <img src="assets/img/IMG_6433-removebg-preview.png" alt="picture" />
         </div>
       </section>
 
       <!--This is the about section -->
-      <section class="about section" id="about">
+      <section
+        class="about section"
+        id="about"
+        style="background-color: hsl(191deg 28% 98%)"
+      >
         <h2 class="section-title">About</h2>
 
         <div class="about__container bd-grid">
           <div class="about__img">
-            <img
-              src="assets/img/Screenshot from 2021-03-15 10-14-38.png"
-              alt=""
-            />
+            <img src="assets/img/IMG_6447.JPG" alt="" />
           </div>
 
           <div>
@@ -172,7 +173,11 @@
       </section>
 
       <!--This the work section-->
-      <section class="work section" id="work">
+      <section
+        class="work section"
+        id="work"
+        style="background-color: hsl(191deg 28% 98%)"
+      >
         <h2 class="section-title">Work</h2>
 
         <div class="work__container bd-grid">
@@ -187,25 +192,25 @@
             >
           </div>
           <div class="work__img">
-            <a href="https://github.com/masande-99/Sick-Class"
+            <a href="https://replit.com/@Masande99/Cancerandinfluenza#main.py"
               ><img src="assets/img/cancer$influenza.jpg" alt="" />Cancer
               infuenza app</a
             >
           </div>
           <div class="work__img">
-            <a href="https://github.com/masande-99/Ticket-sales"
+            <a href="https://replit.com/@Masande99/ticket-sales#main.py"
               ><img src="assets/img/ticket_sales_app.webp" alt="" />Ticket sales
               app</a
             >
           </div>
           <div class="work__img">
-            <a href="https://github.com/masande-99/netbanl-loadn-calculator"
+            <a href="https://replit.com/@Masande99/Loan-calculator#main.py"
               ><img src="assets/img/loan_calculator.jpg" alt="" />Loan
               calculator</a
             >
           </div>
           <div class="work__img">
-            <a href="https://github.com/masande-99/email-sending-app"
+            <a href="https://replit.com/@Masande99/sendingemails#main.py"
               ><img src="assets/img/sending_emails.jpg" alt="" />Email sending
               app</a
             >
@@ -297,7 +302,11 @@
       </section>
 
       <!--This is the contact section-->
-      <section class="contact section" id="contact">
+      <section
+        class="contact section"
+        id="contact"
+        style="background-color: hsl(191deg 28% 98%)"
+      >
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
@@ -306,14 +315,26 @@
             class="contact__form"
             method="post"
           >
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
+            <input
+              name="fullname"
+              type="fullname"
+              placeholder="FullName"
+              class="contact__input"
+              required
+            />
+            <input
+              name="email"
+              type="mail"
+              placeholder="Email"
+              class="contact__input"
+              required
+            />
             <textarea
-              name=""
-              id=""
+              name="comments"
+              placeholder="please leave me some comments"
+              class="contact__input"
               cols="0"
               rows="10"
-              class="contact__input"
             ></textarea>
             <input
               name="submit"
