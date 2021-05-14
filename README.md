@@ -1,3 +1,3 @@
 This is masande's professional portfolio.
 
-You can check it out @ https://masandeportfolio1024.netlify.app
+You can check it out @ https://masandegontyeleni.netlify.app
